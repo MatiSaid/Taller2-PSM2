@@ -7,12 +7,12 @@ void main(void) {
     scanf("%d", &opcion);
 
     if(opcion == 1) {
-        printf("Hola, FPUNA uwu! :)\n");
+        printf("Hola, FPUNA! :)\n");
     } else if(opcion == 2) {
-        printf("Mickaela la Vice y mizzuna !\n"); // No se si escribi bien tu nombre
+        printf("Micaelha la mejor Vice y Miss UNA !\n"); // No se si escribi bien tu nombre
     } else {
         printf("Opción Incorrecta\n");
     }
 
-    return;
+    return 0;
 }
