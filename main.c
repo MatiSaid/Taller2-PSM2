@@ -1,18 +1,21 @@
 #include <stdio.h>
 
-void main(void) {
+int main(void) {
     int opcion;
 
-    printf("Elige una opción (1 o 2): ");
+    printf("Elige una opción (1, 2, 3 o 4): ");
     scanf("%d", &opcion);
 
     if(opcion == 1) {
         printf("Hola, FPUNA! :)\n");
     } else if(opcion == 2) {
-        printf("Micaelha la mejor Vice y Miss UNA !\n"); // No se si escribi bien tu nombre
+        printf("Mickaela la Vice y mizz!\n");
+    } else if(opcion == 3) {
+        printf("Mati el mejor compañero\n");
+    } else if(opcion == 4) {
+        printf("Tengo hambre\n");
     } else {
-        printf("Opción Incorrecta\n");
+        printf("Opción no válida.\n");
     }
 
     return 0;
-}
