@@ -9,11 +9,11 @@ int main(void) {
     if(opcion == 1) {
         printf("Hola, FPUNA! :)\n");
     } else if(opcion == 2) {
-        printf("Mickaela la Vice y mizz!\n");
+        printf("Mica la Vice y miss UNA!\n");
     } else if(opcion == 3) {
-        printf("Mati el mejor compañero\n");
+        printf("Mati el mejor\n");
     } else if(opcion == 4) {
-        printf("Tengo hambre\n");
+        printf("Tenemos hambre :c\n");
     } else {
         printf("Opción no válida.\n");
     }
